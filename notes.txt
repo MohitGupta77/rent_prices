@@ -1,0 +1,10 @@
+Notes about rent project:
+
+FMR: fair market rents are calculated based on bedroom size and represent the 40th percentile of local market rents
+efficiency : studio (.69-.87 of 2 bed)
+1-bed: (.76-.90 of 2 bed)
+
+FMRs include rent and utilities (excluding phone, internet, cable).
+ 
+Effective Date: Usually set annually by October 1st.
+
