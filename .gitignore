@@ -1,0 +1,2 @@
+# Sensitive information (API keys, secrets)
+.env

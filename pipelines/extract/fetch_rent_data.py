@@ -1,6 +1,11 @@
+import os
+from dotenv import load_dotenv
+
 import requests
 
-API_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI2IiwianRpIjoiZDUxZmExMjU3NDM1MDA3MDcwOGVhYjQ5YWNkOGMyZGE3ZjE0Mzg3MTdjMGM5ZWI0NDNkMTExN2Y0NDI0OGVhMzdmOGY4N2YyM2NiNWI1MTAiLCJpYXQiOjE3NzM4NjAyNDAuOTA4Mzc2LCJuYmYiOjE3NzM4NjAyNDAuOTA4MzgsImV4cCI6MjA4OTQ3OTQ0MC45MDM5NzcsInN1YiI6IjEyMzE1MSIsInNjb3BlcyI6W119.Mqkl0oLZ8J58c4YgXBGZ2IE0icetjrLO7gJWK2WANzJ1oytZQU8eslCtfmmk8AfTeIVNko8UPhrZuMYv0fE0GQ'
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
 
 def fetch_rent_data():
     base_url = "https://www.huduser.gov/hudapi/public/fmr"
